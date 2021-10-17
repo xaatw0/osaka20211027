@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:injector/injector.dart';
+import 'package:get_it/get_it.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:osaka20211027/logic.dart';
 
@@ -15,7 +15,7 @@ import 'package:osaka20211027/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    Injector.appInstance.registerDependency<Logic>(() => Logic());
+    GetIt.I.registerSingleton(Logic());
     await tester.pumpWidget(const MyApp());
 
     // Verify that our counter starts at 0.

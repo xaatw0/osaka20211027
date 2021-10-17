@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:injector/injector.dart';
+import 'package:get_it/get_it.dart';
 
 import 'logic.dart';
 
 void main() {
-  Injector.appInstance
-    //..registerDependency<Logic>(() => Logic())
-    ..registerDependency<Logic>(() => Logic());
+  GetIt.I.registerSingleton<Logic>(Logic());
 
   runApp(const MyApp());
 }
@@ -35,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Logic logic = Injector.appInstance.get<Logic>();
+  Logic logic = GetIt.I.get<Logic>();
 
   void _incrementCounter() {
     setState(() {
