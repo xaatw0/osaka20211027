@@ -1,13 +1,13 @@
 # osaka20211027
 
 Flutter Meetup Osaka #8 のさくしん発表用のソースコードです。
-twitter: 
+twitter: @SakushinFlutter
 
 ## ブランチの種類
-・recording: 発表時に作成したソース
-・getit: get_itの試用時のソースです。Mockも入ってます。
-・injector: injectorの試用時のソースです。
-・master: プロジェクト作成時のカウントアップアプリからコメントを削除したソース
+* recording: 発表時に作成したソース 
+* getit: get_itの試用時のソースです。Mockも入ってます。
+* injector: injectorの試用時のソースです。
+* master: プロジェクト作成時のカウントアップアプリからコメントを削除したソース
 
 ## 講座
 Udemyにて、Flutterの脱初心者用の講座を公開中！プレビューだけでも見ていってください！
