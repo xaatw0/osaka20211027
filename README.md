@@ -1,16 +1,24 @@
 # osaka20211027
 
-A new Flutter project.
+Flutter Meetup Osaka #8 のさくしん発表用のソースコードです。
+twitter: 
 
-## Getting Started
+## ブランチの種類
+・recording: 発表時に作成したソース
+・getit: get_itの試用時のソースです。Mockも入ってます。
+・injector: injectorの試用時のソースです。
+・master: プロジェクト作成時のカウントアップアプリからコメントを削除したソース
 
-This project is a starting point for a Flutter application.
+## 講座
+Udemyにて、Flutterの脱初心者用の講座を公開中！プレビューだけでも見ていってください！
+クーポンコード(ブラウザでのみ使用可能・Udemyのアプリは不可):202110
 
-A few resources to get you started if this is your first Flutter project:
+・FlutterでのはじめてのTDD(テスト 駆動開発)！【flutter testで、テストの第一歩から実導入まで】
+https://www.udemy.com/course/flutter-tdd/?couponCode=202110
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+・60分で分かるFlutter Golden Tests (golden_toolkit by ebay)
+https://www.udemy.com/course/flutter-golden-tests/?couponCode=202110
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+・Flutter x Riverpod x MVVMで実現するシンプルな設計
+https://www.udemy.com/course/riverpod/?couponCode=202110
+
